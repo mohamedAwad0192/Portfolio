@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Fredoka';
+    scroll-behavior: smooth;
+}
+header{
+   background-color: rgb(189, 169, 145);
+   width: 100%;
+   position: fixed;
+   z-index: 100;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 100px;
+   border-bottom: 1px solid black;
+
+}
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 4px;
+    transition-duration: .6s;
+
+}
+.logo:hover{
+    font-size: 31px;
+    letter-spacing: 9px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+li, a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: .5s;
+    text-transform: capitalize;
+    color: black;
+}
+li a:hover{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+section{
+    padding: 200px 200px;
+    width: 100%;
+    height: 100vh;
+    background: url(/Picture/toilet-paper-4974461_1280.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    
+}
+p{
+    /* text-transform: capitalize; */
+    word-spacing: 7px;
+}
+h2{
+    font-size: 50px;
+    word-spacing: 5px;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+h2 span{
+    font-size: 100px;
+    vertical-align: sub;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    padding: 16px 0 70px 0;
+    word-spacing: 5px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.view{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 30px;
+    
+}
+.view:hover{
+    color: black;
+    background: #00000000;
+}
+.icons{
+    margin-top: 20px;
+    padding-left: 3px;
+}
+.icons i{
+    padding: 5px 15px;
+} 
